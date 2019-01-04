@@ -40,7 +40,7 @@ input:focus, textarea:focus {
 
 .portfolio-content {
 	line-height: 2;
-	color: #555;
+	color: rgb(22, 22, 22);
 }
 
 .portfolio-content a {
@@ -56,14 +56,15 @@ input:focus, textarea:focus {
 }
 
 h1, h2, h3 {
-	font-family: 'Crimson Text', sans-serif;
+	font-family: 'Trebuchet MS', Helvetica, sans-serif;
 	letter-spacing: 1px;
 	font-weight: 300;
 	margin-bottom: 20px;
 }
 
 .navbar-brand {
-	font-weight: 800;
+	font-family: inherit;
+	font-weight: 600;
 	font-size: 1.5rem;
 	letter-spacing: 0.5px;
 }
@@ -73,9 +74,10 @@ h1, h2, h3 {
 }
 
 .nav-item {
-	font-size: 0.8rem;
-	font-weight: 300;
-	letter-spacing: 1.5px;
+	font-family: inherit;
+	font-size: 0.9rem;
+	font-weight: 200;
+	letter-spacing: 1.0px;
 }
 
 .navbar-toggler {
@@ -107,7 +109,8 @@ h1, h2, h3 {
   float: left;
   overflow: hidden;
   position: relative;
-  text-align: center;
+	text-align: center;
+	background-color: cornsilk;
 }
 
 .hovereffect .overlay {
@@ -120,9 +123,9 @@ h1, h2, h3 {
 }
 
 .hovereffect .overlay-text {
-	font-size: 1.3rem;
-	font-family: 'Crimson Text', sans-serif;
-	font-weight: 300;
+	font-size: 1.2rem;
+	font-family: 'Trebuchet MS', Helvetica, sans-serif;
+	font-weight: 250;
 	color: #000;
 	left: 50%;
 	position: absolute;
@@ -165,8 +168,14 @@ h1, h2, h3 {
 }
 .page-nav a,span {
 	font-size: 1.3rem;
-	font-family: 'Crimson Text', sans-serif;
+	font-family: 'Trebuchet MS', Helvetica, sans-serif;
 	font-weight: 300;
 	margin: 0 10px;
 	color: #000;
+}
+
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
