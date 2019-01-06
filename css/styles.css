@@ -39,12 +39,12 @@ input:focus, textarea:focus {
 }
 
 .portfolio-content {
-	line-height: 2;
-	color: rgb(22, 22, 22);
+	line-height: 1.6em;
+	color: #333;
 }
 
 .portfolio-content a {
-	color: #333;
+	color: rgb(75, 74, 74);
 	text-decoration: none;
 	border-bottom: 1px solid #bbb;
 }
@@ -80,6 +80,9 @@ h1, h2, h3 {
 	letter-spacing: 1.0px;
 }
 
+.nav-item a.nav-link:active {
+	background-color: yellow;
+}
 .navbar-toggler {
 	border: 0;
 }
@@ -178,4 +181,9 @@ h1, h2, h3 {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+.update{
+	font-family: 'Trebuchet MS', Helvetica, sans-serif;
+	font-size: 1.2rem;
 }
