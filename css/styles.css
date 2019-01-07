@@ -81,7 +81,7 @@ h1, h2, h3 {
 }
 
 .nav-item a.nav-link:active {
-	background-color: yellow;
+	background-color: #ddd;
 }
 .navbar-toggler {
 	border: 0;
