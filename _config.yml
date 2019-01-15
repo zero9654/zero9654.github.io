@@ -13,7 +13,7 @@ timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: http://www.lingsun.me
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -84,8 +84,9 @@ deploy:
 
 # Header
 menu:
-  Portfolio: /portfolio
+  Portfolio: /
   About: /about
-  Instagram: https://www.instagram.com/lingssun/
   LinkedIn: https://www.linkedin.com/in/lingssun/
+  Resume: https://drive.google.com/open?id=1pcBCQPi2ZWTxhf6fcmMqAFWruBffbNMI
+  
 
