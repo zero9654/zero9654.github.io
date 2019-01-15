@@ -16,3 +16,5 @@ Sketch · Flinto · Photoshop · InVision · Adobe XD
 
 Languages:
 R language, HTML, CSS, PYTHON
+
+<a ref = "https://www.linkedin.com/in/lingssun/" class = "linkedin"><button>LinkedIn</button> </a>
