@@ -1,5 +1,5 @@
 body {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'PT Sans', sans-serif;
 }
 
 form {
@@ -8,12 +8,16 @@ form {
 }
 
 button {
-  color: #777;
-	background: #fff;
+  color: black;
+	background-color: white ;
   padding: 4px 12px 4px 12px;
-  border: solid #777 2px;
+  border: solid rgb(0, 0, 0) 2px;
 	transition: all 0.3s ease-in-out;
 	text-decoration: none;
+
+}
+
+button.back {
 	display:block;
 	text-align:center;
 	margin-left: auto;
@@ -22,9 +26,8 @@ button {
 }
 
 button:hover {
-	color: #000;
-	border: solid #000 2px;
-  text-decoration: none;
+	color: #fff;
+	background-color: #000
 }
 
 input, textarea {
@@ -61,16 +64,16 @@ input:focus, textarea:focus {
 }
 
 h1, h2, h3 {
-	font-family: 'Trebuchet MS', Helvetica, sans-serif;
+	font-family: 'PT Sans', sans-serif;
 	letter-spacing: 1px;
-	font-weight: 300;
+	font-weight: 500;
 	margin-bottom: 20px;
 }
 
 .navbar-brand {
-	font-family: inherit;
+	font-family:'Exo', sans-serif;
 	font-weight: 600;
-	font-size: 1.5rem;
+	font-size: 1.8rem;
 	letter-spacing: 0.5px;
 }
 
@@ -79,20 +82,22 @@ h1, h2, h3 {
 }
 
 .nav-item {
-	font-family: inherit;
+	font-family: 'Exo 2', sans-serif;
 	font-size: 0.9rem;
-	font-weight: 500;
+	font-weight: 200;
 	letter-spacing: 1.0px;
 }
 
 .nav-item a.nav-link:active {
 	background-color: #fff;
-	font-weight: 800;
+	color: #000;
+	font-weight: 500;
 }
 
 .nav-item a.nav-link:hover {
 	background-color: #fff;
-	font-weight: 800;
+	color: #000;
+	font-weight: 500;
 }
 
 .navbar-toggler {
@@ -139,7 +144,7 @@ h1, h2, h3 {
 
 .hovereffect .overlay-text {
 	font-size: 1.2rem;
-	font-family: 'Trebuchet MS', Helvetica, sans-serif;
+	font-family: 'PT Sans', sans-serif;
 	font-weight: 250;
 	color: #000;
 	left: 50%;
@@ -183,7 +188,7 @@ h1, h2, h3 {
 }
 .page-nav a,span {
 	font-size: 1.3rem;
-	font-family: 'Trebuchet MS', Helvetica, sans-serif;
+	font-family: 'PT Sans', sans-serif;
 	font-weight: 300;
 	margin: 0 10px;
 	color: #000;
